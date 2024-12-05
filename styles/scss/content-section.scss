@@ -1,0 +1,26 @@
+.content-section {
+  display: flex;
+  padding: 40px 0;
+  justify-content: space-around;
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  div {
+    text-align: center;
+    max-width: 300px;
+
+    a {
+      padding: 10px 20px;
+      color: white;
+      background-color: $dark-blue;
+      border-radius: 5px;
+
+      &:hover {
+        background-color: darken($dark-blue, 10%);
+      }
+    }
+  }
+}
