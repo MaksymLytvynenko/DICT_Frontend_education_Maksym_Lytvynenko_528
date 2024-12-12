@@ -1,0 +1,12 @@
+.welcome {
+  text-align: center;
+  padding: 40px;
+
+  h2 {
+    font-size: 32px;
+
+    .second-color {
+      color: $blue;
+    }
+  }
+}
