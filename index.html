@@ -10,23 +10,28 @@
 </head>
 <body>
 
+<div id="progress-container">
+    <div id="progress-bar"></div>
+</div>
+
 <div class="wrapper">
     <header>
         <h1>Your Company's Name</h1>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">What We Do</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">References</a></li>
+                <li><a href="#welcome" class="nav-link">Home</a></li>
+                <li><a href="#content-section" class="nav-link">About</a></li>
+                <li><a href="#breaker" class="nav-link">What We Do</a></li>
+                <li><a href="#cta" class="nav-link">Services</a></li>
+                <li><a href="#footer" class="nav-link">References</a></li>
+                <li><button id="theme-toggle">Switch to Dark Mode</button></li>
             </ul>
         </nav>
     </header>
 </div>
 
 
-<section class="welcome">
+<section id="welcome" class="welcome">
     <div class="wrapper">
         <img src="img/Hero.svg" alt="Hero Image">
         <h2>Welcome, <span class="second-color">person!</span></h2>
@@ -50,7 +55,7 @@
 
 <div class="wrapper">
 
-    <section class="content-section">
+    <section id="content-section" class="content-section">
         <div>
             <img src="img/Rectangle1.svg" alt="Person with tablet">
             <h3>Title Here</h3>
@@ -78,7 +83,7 @@
     </section>
 </div>
 
-<section class="breaker">
+<section id="breaker" class="breaker">
     <div class="wrapper">
         <img src="img/laptop.svg" alt="Laptop">
         <div>
@@ -95,7 +100,7 @@
     </div>
 </section>
 
-<section class="cta">
+<section id="cta" class="cta">
     <div class="wrapper">
         <img src="img/happy.svg" alt="Happy person">
         <div>
@@ -113,6 +118,7 @@
 </section>
 
 <footer>
+    <section id="footer">
     <div class="wrapper">
         <div class="footer-text">
             <div>
@@ -148,7 +154,8 @@
             </nav>
         </div>
     </div>
+    </section>
 </footer>
-
+<script src="script.js"></script>
 </body>
 </html>
