@@ -8,6 +8,25 @@ $yellow: #E8E36D;
 $body-font: 'Roboto', sans-serif;
 $header-font: 'DM Serif Display', serif;
 
+#progress-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background: #f0f0f0;
+}
+#progress-bar {
+  height: 5px;
+  background: #007bff;
+  width: 0%;
+}
+
+body.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
 .wrapper {
   max-width: 1240px;
   margin: 0 auto;
